@@ -1,3 +1,8 @@
+# Calculador de Propinas
+Repositorio del proyecto JordyDev
+![cortado](https://github.com/user-attachments/assets/04aa7eba-4469-4dc0-8653-545913478497)
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
