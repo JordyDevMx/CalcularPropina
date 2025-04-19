@@ -12,8 +12,9 @@ function App() {
 
   return (
     <>
-      <header className=" bg-sky-500 py-4 px-4">
-        <h1 className=" text-center text-4xl font-bold">Calculando la propina y consumo</h1>
+      <header className="flex justify-around items-center bg-sky-500 py-4 px-4">
+        <img className="w-60" src="/logo.svg" alt="Logo" />
+        <h1 className="text-center text-4xl font-bold">Calculando la propina y consumo</h1>
       </header>
 
       <main className=" max-w-7xl mx-auto py-20 grid md:grid-cols-2 gap-8">
@@ -60,7 +61,7 @@ function App() {
       </main>
 
       <footer className="bg-blue-700 p-4 text-center">
-        <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordyweb.site/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
+        <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordydev.website/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
       </footer>
     </>
   )
